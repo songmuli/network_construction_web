@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>构建网络</title>
+  </head>
+  <style>
+    .btn{ 
+      min-width: 60px; 
+      height: 40px;
+      color: #fff;
+      padding: 5px 8px; 
+      background: #4daff9; 
+      border: 1px solid #4daff9; 
+      margin-left: 710px;
+      margin-top: 10px;
+    }
+    .btn:hover{
+      color: #fff;
+      background: #0a90f5;
+          }
+    .btn:focus{
+      color: #fff;
+      background: #0a90f5;
+      outline: none;
+          }
+  
+  </style>
+  <span>
+    <body>
+      <div class="network1" style="float: left;">
+          <iframe height="650px" width="710" id="network1" src="network1/index.html"></iframe>
+      </div>
+      <div class="network2" style="float: right;">
+        <iframe height="650px" width="710" id="network2" src="network2/index.html" ></iframe>
+      </div>
+    </body>
+   </span> 
+   <div id="zoom">
+    <button class="btn" onclick="window.open('network-community.html')" type="button">划分社区</button>
+	</div>
+</html>
